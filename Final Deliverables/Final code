@@ -28,9 +28,6 @@ def myCommandCallback(cmd):
         print("Sprinkler is ON")
     #print(cmd)
     
-        
-
-
 try:
 	deviceOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
 	deviceCli = ibmiotf.device.Client(deviceOptions)
